@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "หลอมทองพัทยา By กฤต เมืองตาก | เช็คราคาทอง ตรวจราคาทอง ประเมินราคาทอง",
-  url: "https://example.com/",
+  url: "https://krit-pattaya-gold.vercel.app/",
   description: "หลอมทองพัทยา By กฤต เมืองตาก ตรวจราคาทอง เช็คราคาทอง ประเมินราคาทองได้ที่นี่ | รับซื้อทองคำทุกประเภท โทร 0928251259 หรือเดินทางมาที่ร้าน https://maps.app.goo.gl/Zq3m3qaDF93BeMNM7",
   navItems: [
   ],

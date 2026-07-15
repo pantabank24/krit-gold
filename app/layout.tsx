@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.url,
     images: {
-      url: "https://example.com/images/banner2.png",
+      url: "https://krit-pattaya-gold.vercel.app/images/banner2.png",
       width: 1200,
       height: 630,
     },
