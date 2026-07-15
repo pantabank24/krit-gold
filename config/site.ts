@@ -41,7 +41,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    line: "https://line.me/ti/p/lei-8ZBQLp",
+    line: "https://line.me/ti/p/~acar12",
     facebook: "https://web.facebook.com/profile.php?id=100065105735062"
   },
 };

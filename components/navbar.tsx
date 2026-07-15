@@ -77,7 +77,7 @@ const ModernNavbar = ({ isTransparent }: Props) => {
               />
             </a>
             <a
-              href="https://line.me/ti/p/lei-8ZBQLp"
+              href="https://line.me/ti/p/~acar12"
               className="w-8 h-8 flex items-center justify-center rounded-full  hover:bg-white/20 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

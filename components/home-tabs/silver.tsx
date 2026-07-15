@@ -369,7 +369,7 @@ export const SilverPage = ({
 
           <Button
             as="a"
-            href="https://line.me/ti/p/lei-8ZBQLp"
+            href="https://line.me/ti/p/~acar12"
             className=" hover:scale-105 backdrop-blur-xl border-2 border-white/20 flex h-14 w-56 px-10 mt-3  bg-gradient-to-b from-green-500 to-green-700 "
             radius="full"
           >
