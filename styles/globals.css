@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .nextui-select * {
+  font-size: 2.25rem !important;
+}
+}
+
+@media print {
+  textarea, input {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    resize: none !important;
+    box-shadow: none !important;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #print-section,
+  #print-section * {
+    visibility: visible;
+  }
+
+  #print-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* ลบพวก header/footer ที่ browser ใส่ให้ */
+  @page {
+    size: A6 portrait;
+    margin: 1cm;
+  }
+
+  /* ป้องกันสีพื้นหลังเบา ๆ ที่อาจมาจาก tailwind */
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background: white !important;
+  }
+}
