@@ -125,7 +125,7 @@ export default function RootLayout({
               <div className="flex items-center gap-1 text-current">
                 <span className="text-default-600">Copyright</span>
                 <p className=" font-bold bg-gradient-to-b from-yellow-200 to-yellow-600 bg-clip-text text-transparent">
-                  © 2025 หลอมทองพัทยา By กฤต เมืองตาก
+                  © 2026 หลอมทองพัทยา By กฤต เมืองตาก
                 </p>
               </div>
               <div className="flex items-center gap-1 text-current">
@@ -135,7 +135,7 @@ export default function RootLayout({
               </div>
               <div className="flex items-center gap-1 text-current mb-16">
                 <p className="text-primary text-xs">
-                  1.5.1 (September 5, 2025 Latest)
+                  1.5.1 (July 16, 2026 Latest)
                 </p>
               </div>
             </footer>
